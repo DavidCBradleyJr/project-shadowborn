@@ -1,0 +1,25 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables
+.env
+
+# Ignore virtual environment
+.venv/
+
+# Ignore IDE settings (for PyCharm)
+.idea/
+
+# Ignore database files (local Postgres if any)
+*.sqlite3
+db.sqlite3
+
+# Ignore Docker volumes (if you accidentally create local)
+pgdata/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
